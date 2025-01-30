@@ -1,0 +1,18 @@
+# Ignorar archivos y carpetas innecesarias
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar configuraciones del entorno de desarrollo
+.idea/
+.vscode/
+*.iml
+
+# Ignorar archivos específicos
+HELP.md
+README.md
+
+# Incluir específicamente el archivo WAR
+!target/sgu-0.0.1-SNAPSHOT.war
