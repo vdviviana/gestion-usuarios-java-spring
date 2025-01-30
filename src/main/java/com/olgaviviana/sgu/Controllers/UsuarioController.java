@@ -14,9 +14,12 @@ public class UsuarioController {
         return List.of("manzana","kiwi","banana");
     }
 
+    /*
     @GetMapping("/")
     public String home() {
         return "Bienvenido a la aplicación Spring Boot desplegada en Google Cloud!";
     }
+    */
+
 
 }
