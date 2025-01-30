@@ -8,7 +8,7 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 COPY /target/sgu-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
 
 # Exponer el puerto en el que correrá la aplicación
-EXPOSE 8000
+EXPOSE 8080
 
 # Comando para ejecutar Tomcat
 CMD ["catalina.sh", "run"]
