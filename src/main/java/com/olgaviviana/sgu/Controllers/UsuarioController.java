@@ -1,5 +1,6 @@
 package com.olgaviviana.sgu.Controllers;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,4 +13,10 @@ public class UsuarioController {
     public List<String> prueba() {
         return List.of("manzana","kiwi","banana");
     }
+
+    @GetMapping("/")
+    public String home() {
+        return "Bienvenido a la aplicación Spring Boot desplegada en Google Cloud!";
+    }
+
 }
