@@ -15,4 +15,4 @@ HELP.md
 README.md
 
 # Incluir específicamente el archivo WAR
-!target/sgu-0.0.1-SNAPSHOT.war
+#!target/sgu-0.0.1-SNAPSHOT.war
